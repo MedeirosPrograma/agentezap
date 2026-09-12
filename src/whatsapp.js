@@ -17,11 +17,11 @@ const CONFIG = {
 
     lerContatos: true,
 
-    lerGrupos: false,
+    lerGrupos: true,
 
     lerStatus: false,
 
-    lerNewsletters: false,
+    lerNewsletters: true,
 
     lerBroadcasts: false
 

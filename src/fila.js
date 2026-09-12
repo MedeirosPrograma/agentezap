@@ -1,8 +1,12 @@
 import fs from "fs";
 import path from "path";
+import { fileURLToPath } from "url";
 
-const ENTRADA = "./filas/entrada";
-const SAIDA = "./filas/saida";
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const ENTRADA = path.join(__dirname, "..", "filas", "entrada");
+const SAIDA = path.join(__dirname, "..", "filas", "saida");
 
 /*
 |--------------------------------------------------------------------------
